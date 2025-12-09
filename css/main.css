@@ -91,8 +91,8 @@ h3 {
 }
 
 .node-circle {
-  fill: #4e79a7;
-  stroke: #2c3e50;
+  fill: #94949400;
+  stroke: #000000;
   stroke-width: 1px;
 }
 .node-text {
@@ -110,7 +110,7 @@ h3 {
   dominant-baseline: middle;
 }
 .arrow {
-  stroke: #2c3e50;
+  stroke: #000000;
   stroke-width: 1.5px;
   fill: none;
   marker-end: url(#arrowhead);
