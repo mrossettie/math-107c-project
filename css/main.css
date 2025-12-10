@@ -126,6 +126,7 @@ svg {
 .gantt-chart {
   display: grid;
   grid-template-columns: 100px repeat(11, 40px);
+  border-spacing: 1px;
   border: 1px solid #000000;
   font-family: sans-serif;
   width: fit-content;
