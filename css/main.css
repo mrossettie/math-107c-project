@@ -126,8 +126,7 @@ svg {
 .gantt-chart {
   display: grid;
   grid-template-columns: 100px repeat(11, 40px);
-  grid-gap: 1px;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   font-family: sans-serif;
   width: fit-content;
   margin: 0 auto;
@@ -135,42 +134,43 @@ svg {
 .cell {
   padding: 5px;
   text-align: center;
-  border-right: 1px solid #eee;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
 }
 .header-cell {
   font-weight: bold;
-  background-color: #f2f2f2;
+  background-color: #b1b1b1;
 }
 .label-cell {
-  background-color: #f2f2f2;
+  background-color: #b1b1b1;
   grid-column: 1 / span 1;
 }
 .label-cell2 {
-  background-color: #f2f2f2;
+  background-color: #b1b1b1;
   grid-column: 1 / span 1;
 }
 .task-P1-T1 {
-  background-color: #4caf50;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   grid-column: 2 / span 1;
 }
 .task-P2-T7 {
-  background-color: #2196f3;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   grid-column: 2 / span 2;
 }
 .task-P1-T4 {
-  background-color: #ffeb3b;
+  background-color: #ffffff;
   grid-column: 3 / span 5;
 }
 .task-P2-T2 {
-  background-color: #ff9800;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   grid-column: 6 / span 1;
 }
 .task-P2-T3 {
-  background-color: #9c27b0;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   grid-column: 7 / span 1;
 }
 .task-P2-Idle-2 {
@@ -178,8 +178,8 @@ svg {
   grid-column: 8 / span 5;
 }
 .task-P2-T5 {
-  background-color: #e91e63;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   grid-column: 4 / span 2;
 }
 .task-P1-Idle-3 {
@@ -187,8 +187,8 @@ svg {
   grid-column: 10 / span 3;
 }
 .task-P1-T6 {
-  background-color: #607d8b;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   grid-column: 8 / span 2;
 }
 #wrapper2 {
